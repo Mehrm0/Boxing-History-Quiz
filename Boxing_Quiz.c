@@ -1,5 +1,4 @@
-/*Ein C Kode, der stellt ein Quizz mit 20 Fragen dar. Die Frag
-en sind uber die Geschichte des Boxens.*/ 
+/*A quiz about the history of the heavy weight boxing, with correction and assessment. There are 20 questions.*/ 
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
@@ -21,13 +20,12 @@ int note;
 void getf();
 /*******************************
 *     The Main Function
-****************************
-****/
+********************************/
 int main()
 {
 char cont;
 puts("*************************************************************************");
-puts("Wellcome to Boxing History quiz. Please press the `d' button to continue.");
+puts("Wellcome to Boxing History quiz. Please press the `d' key to continue.");
 puts("*************************************************************************");
 scanf("%c",&cont);
 if(cont=='d')
